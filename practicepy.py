@@ -6,11 +6,11 @@ name = input("What is your name? ")
 age = input("What's your age? ")
 gender = input("Are you Male or Female? ")
 sexual_orientation = input("What's your sexual Prefrence? ")
-Current_Relationship_Status = input("What's your current relationship status? ")
+current_relationship_status = input("What's your current relationship status? ")
 
 #Daiting Prefrences
 age_range = input("What's your age range? ") 
-Type_Relationship = input("What type of relationship are you looking for? ")
+type_relationship = input("What type of relationship are you looking for? ")
 type_person = input("Do you perfer somone to have the same intrests or have diffrent from you? ")
 cultural_background = input("Are you open to dating people with diffrent cultural backgrounds? ")
 
@@ -49,10 +49,10 @@ communicate = input("What is your perferred method of communicating? ")
 
 #Paragraph
 print("Basic Imformation")
-print("Hi my name is " + name + ", I am " + age + ". I am " + sexual_orientation + ", with my relationship staus being " + Current_Relationship_Status + ".")
+print("Hi my name is " + name + ", I am " + age + ". I am " + sexual_orientation + ", with my relationship staus being " + current_relationship_status + ".")
 print()
 print("Daiting Prefrences")
-print("I am looking for somone who is around " + age_range + ", the type of relationship I want is a " + Type_Relationship + "relationship. I will date someone who will have " + type_person + " intrests. But I am " + cultural_background + " to someone who has a cultural background")
+print("I am looking for somone who is around " + age_range + ", the type of relationship I want is a " + type_relationship + "relationship. I will date someone who will have " + type_person + " intrests. But I am " + cultural_background + " to someone who has a cultural background")
 print()
 print("Personality - Lifestyle")
 print("Personality: " + personality)
